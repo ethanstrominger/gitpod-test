@@ -7,6 +7,11 @@ tasks:
       ../update_submodule.sh
       ./gitpod_init.sh
 
+    command: |
+      cd us-congress-pizza-flag-tracker
+      ../update_submodule.sh
+      ./run.sh
+  
   - name: init frontend
     init: |
       chmod -R 700 *.sh
@@ -14,13 +19,6 @@ tasks:
       ../update_submodule.sh
       ./gitpod_init.sh
 
-  - name: start backend
-    command: |
-      cd us-congress-pizza-flag-tracker
-      ../update_submodule.sh
-      ./
-
-  - name: start frontend
     command: |
       cd us-congress-pizza-flag-tracker-frontend
       ../update_submodule.sh
