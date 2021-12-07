@@ -1,0 +1,6 @@
+[submodule "us-congress-pizza-flag-tracker"]
+	path = us-congress-pizza-flag-tracker
+	url = https://github.com/codefordc/us-congress-pizza-flag-tracker
+[submodule "us-congress-pizza-flag-tracker-frontend"]
+	path = us-congress-pizza-flag-tracker-frontend
+	url = https://github.com/codefordc/us-congress-pizza-flag-tracker-frontend
