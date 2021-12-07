@@ -1,0 +1,32 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - name: init backend
+    init: |
+      chmod -R 700 *.sh
+      cd us-congress-pizza-flag-tracker
+      ../update_submodule.sh
+      ./gitpod_init.sh
+
+  - name: init frontend
+    init: |
+      chmod -R 700 *.sh
+      cd us-congress-pizza-flag-tracker-frontend
+      ../update_submodule.sh
+      ./gitpod_init.sh
+
+  - name: start backend
+    command: |
+      cd us-congress-pizza-flag-tracker
+      ../update_submodule.sh
+      ./
+
+  - name: start frontend
+    command: |
+      cd us-congress-pizza-flag-tracker-frontend
+      ../update_submodule.sh
+      npm start
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
