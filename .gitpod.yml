@@ -10,6 +10,7 @@ tasks:
     command: |
       cd us-congress-pizza-flag-tracker
       ../update_submodule.sh
+      myenv/venv/activate
       ./run.sh
   
   - name: init frontend
