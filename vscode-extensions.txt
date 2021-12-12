@@ -4,7 +4,7 @@ cmstead.jsrefactor
 coenraads.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 eamodio.gitlens
-esbenp.prettier
+esbenp.prettier-vscode
 mgmcdermott.vscode-language-babel
 moshfeu.compare-folders
 ms-python.python
