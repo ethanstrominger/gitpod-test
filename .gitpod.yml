@@ -1,6 +1,20 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: init backend
+  - name: backend
+    init: |
+      chmod -R 700 *.sh
+    command: |
+      cd us-congress-pizza-flag-tracker
+
+  - name: frontend
+    init: |
+      chmod -R 700 *.sh
+      ./install-vscode.sh
+
+    command: |
+      cd us-congress-pizza-flag-tracker-frontend
+
+  - name: srv backend
     init: |
       chmod -R 700 *.sh
       cd us-congress-pizza-flag-tracker
@@ -13,7 +27,7 @@ tasks:
       source myenv/venv/activate
       ./run.sh
   
-  - name: init frontend
+  - name: srv frontend
     init: |
       chmod -R 700 *.sh
       cd us-congress-pizza-flag-tracker-frontend

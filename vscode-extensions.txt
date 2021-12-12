@@ -1,0 +1,11 @@
+adammaras.overtype
+cmstead.js-codeformer
+cmstead.jsrefactor
+coenraads.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier
+mgmcdermott.vscode-language-babel
+moshfeu.compare-folders
+ms-python.python
+ms-python.vscode-pylance
