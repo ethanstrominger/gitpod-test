@@ -7,7 +7,7 @@ done < "$input"
 echo
 echo
 echo
-echo ** NOT CRITICAL TO FIX ISSUES ** 
+echo ==== NOT CRITICAL TO FIX ISSUES ==== 
 echo
 echo
 echo
