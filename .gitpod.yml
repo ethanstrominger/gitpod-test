@@ -5,12 +5,12 @@ tasks:
       chmod -R 700 *.sh
       cd us-congress-pizza-flag-tracker
       ../update_submodule.sh
-      ./gitpod_init.sh
+      source ./gitpod_init.sh
 
     command: |
       cd us-congress-pizza-flag-tracker
       ../update_submodule.sh
-      myenv/venv/activate
+      source myenv/venv/activate
       ./run.sh
   
   - name: init frontend
